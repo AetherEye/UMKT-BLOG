@@ -2,11 +2,12 @@ import { Twitter, Instagram, GitHub, Linkedin } from "react-feather";
 import siteConfig from "@/data/siteConfig";
 import { cx } from "@/lib/utils";
 import { ThemeSelect } from "@/components/ThemeSelect";
-
+import { FaDiscord } from 'react-icons/fa';
+  
 const iconProps = { className: "w-4 h-4" };
 
 const SOCIAL_ICONS: { [key: string]: React.ReactNode } = {
-  twitter: <Twitter {...iconProps} />,
+  discord: <FaDiscord {...iconProps} />,
   instagram: <Instagram {...iconProps} />,
   github: <GitHub {...iconProps} />,
   linkedin: <Linkedin {...iconProps} />,

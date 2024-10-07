@@ -7,7 +7,7 @@ const About: NextPage = () => {
     <>
       <Page
         title="About"
-        description="This is a brief description about the about page."
+        description="TIni adalah tentang Blog ini."
       >
         <Prose>
           <p>

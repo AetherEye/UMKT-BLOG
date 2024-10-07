@@ -13,7 +13,7 @@ const Posts: NextPage<PostsProps> = ({ posts }) => {
     <>
       <Page
         title="Posts"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        description="Blog post tentang UMKT TI"
       >
         <PostList posts={posts} />
       </Page>
